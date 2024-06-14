@@ -1,0 +1,8 @@
+services:
+  moonlight-proxy:
+    image: nginx
+    container_name: moonlight-proxy
+    restart: always
+    network_mode: host
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
