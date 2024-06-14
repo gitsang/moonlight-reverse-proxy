@@ -1,6 +1,8 @@
 # moonlight-reverse-proxy
 
-nginx stream proxy for moonlight server
+Nginx stream proxy for moonlight server.
+
+Can be used for DMZ server forwarding or ipv6 to ipv4 forwarding.
 
 ## Usage
 
